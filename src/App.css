@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.controls {
+  width: 20%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.controls label {
+  margin-right: 10px;
+}
+
+.data-view {
+  width: 20%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.visualization {
+  width: 50%;
+  height: 500px;
+}
